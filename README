@@ -14,7 +14,16 @@ TLD is an algorithm for tracking of unknown objects in unconstrained video strea
  title {Tracking-learning-detection},
  year = {2012}
 }
+----------------------------------------------------------------------------
+To use TLD:
+It's crucial to choose the opencv lib you compiled with.
+You need to make sure ocl and superres is not in the complied list.
+Otherwise you will obtain an error when calling complied lk.
+Like 
 
+  lk(0)
+
+2014 Jiayu Ye
 ----------------------------------------------------------------------------
 
 (c) 2011 Zdenek Kalal
